@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def get_store(file):
+def get_store_frame(file):
     table = pd.ExcelFile(file)
     
     df = table.parse(table.sheet_names[1])

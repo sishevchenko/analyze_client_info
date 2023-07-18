@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def get_sales(file):
+def get_sales_frame(file):
     table = pd.ExcelFile(file)
 
     # Список фреймов для склейки
